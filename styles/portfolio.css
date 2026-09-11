@@ -46,11 +46,17 @@
     line-height: 30px;
     color: #757575;
   }
+
+  .text-centre{
+    text-align: center;
+    padding-top: 50px;
+  }
+
 /* MAIN STYLE */
  header{
     background-color: #FFF8F3;
     background: url(../images/developer.png), url(../images/header_bg.png)  #FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat; 
     padding-top: 50px;
 
@@ -112,7 +118,7 @@ margin-bottom: 20px;
 }
 
 #banner .banner-image img{
-  max-width: 585px;
+  max-width: 587px;
   vertical-align: middle;
   height: 530px;
   /* width: 600px; */
@@ -226,5 +232,47 @@ margin-bottom: 20px;
   color: #474747;
 }
 
+footer{
+  margin-top: 130px;
+  background-color: #FFF8F3;
+  padding: 130px 0;
+}
 
+.footer-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+}
+
+.footer-container h2{
+  color: #181818;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.social{
+  max-width: 562px;
+}
+
+.social p{
+  color: #474747;
+  line-height: 28px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.icons a{
+  margin-right: 24px;
+}
+
+.footer-container form input[type="text"], form textarea{
+  width: 461px;
+  padding: 18px 31px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  color:#757575;
+}
 
